@@ -1,0 +1,58 @@
+PHISHING EMAIL — INDICATORS OF COMPROMISE
+
+Sender display name:
+BANCO DO BRADESCO LIVELO
+
+Sender email:
+banco.bradesco@atendimento.com.br
+
+Sender domain:
+atendimento.com.br
+
+Return-Path:
+root@ubuntu-s-1vcpu-1gb-35gb-intel-sfo3-06
+
+Sending host:
+ubuntu-s-1vcpu-1gb-35gb-intel-sfo3-06
+
+Source IP:
+137.184.34.4
+
+Suspicious URL:
+hxxps://blog1seguimentmydomaine2bra[.]me/
+
+URL domain:
+blog1seguimentmydomaine2bra[.]me
+
+Email subject:
+CLIENTE PRIME - BRADESCO LIVELO: Seu cartão tem 92.990 pontos LIVELO expirando hoje!
+
+Message-ID:
+<20230919183549.39DEA3F725@ubuntu-s-1vcpu-1gb-35gb-intel-sfo3-06>
+
+Email date:
+19 September 2023, 18:35:49 UTC
+
+Authentication results in original message:
+SPF: TempError (DNS timeout)
+DKIM: None (message not signed)
+DMARC: TempError
+Composite authentication: Fail (reason=001)
+
+VirusTotal IP result (screenshot captured 9 November 2026):
+0/92 vendor detections shown.
+Gridinsoft classified the IP as Suspicious; other vendors visible in the screenshot show Clean.
+ASN: AS14061 (DigitalOcean, LLC).
+Country shown: United States.
+
+MXToolbox results (screenshots captured 9 November 2026):
+- Header analysis: SPF temperror; DKIM none; DMARC temperror.
+- SPF lookup for the sending hostname failed because no name servers were found for that hostname.
+- DMARC lookup for atendimento.com.br: No DMARC record found.
+
+Notes:
+- The VirusTotal result is mixed reputation evidence. 0/92 detections does not prove the IP is safe.
+- The MXToolbox DMARC lookup is a point-in-time lookup from 9 November 2026; it does not prove the DNS record state on 19 September 2023.
+- The IP reputation screenshot checks 137.184.34.4, the source IP found in the email headers.
+- No attachment or file hash was identified in the supplied sample.
+- Message-ID is useful email metadata, but is not by itself proof of malicious activity.
