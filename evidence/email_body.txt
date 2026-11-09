@@ -1,0 +1,21 @@
+EMAIL BODY — EXTRACTED FROM THE .EML SAMPLE
+
+Email display name: BANCO DO BRADESCO LIVELO
+Subject: CLIENTE PRIME - BRADESCO LIVELO: Seu cartão tem 92.990 pontos LIVELO expirando hoje!
+
+The email is written in Portuguese. Its main message states that the recipient has Livelo points associated with a Banco do Bradesco card that expire today and encourages immediate redemption.
+
+Visible message content (translated summary):
+- The recipient supposedly has Livelo points available for redemption.
+- The points allegedly expire today.
+- The email encourages the recipient to redeem the points immediately.
+- It advertises airline miles, discounts of up to 35% on the card bill and rewards.
+- It displays a “Resgatar Agora” (Redeem Now) call to action.
+
+Embedded link found in the HTML:
+hxxps://blog1seguimentmydomaine2bra[.]me/
+
+The same destination appears in two visible links in the HTML (“Clique aqui” and “Resgatar Agora”).
+
+Analyst note:
+The original URL has been defanged in this text file. Do not visit it. The HTML also references remote images and Google Fonts resources. Loading remote images can notify remote servers that the message was opened; the EML preview tool explicitly warned that remote images were not loaded.
